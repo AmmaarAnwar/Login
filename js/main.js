@@ -35,5 +35,5 @@ function add() {
 
   user.push(object);
   localStorage.setItem("user", JSON.stringify(user));
-  location.href = "../Login/index.html";
+  location.href = "Login/index.html";
 }
